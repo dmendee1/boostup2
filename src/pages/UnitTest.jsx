@@ -10,7 +10,12 @@ function UnitTest(props) {
             <section className="tf-section tf-contact">
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-5 col-md-12">
+                        <div className='col-xl-12 col-md-12'>
+                            <div className="img">
+                                <img src="assets/images/background/automation.png" alt="Crybox" />
+                            </div>
+                        </div>
+                        {/* <div className="col-xl-5 col-md-12">
                             <div className="content-about m-b50 mobie-40" data-aos="fade-right" data-aos-duration="800">
                                 <div className="tf-title st2 m-b17">
                                     <h4 className="title">Have a question </h4>
@@ -54,7 +59,7 @@ function UnitTest(props) {
                                     <iframe title='map' className="map-content" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4457.30210514409!2d144.9550716623184!3d-37.818421643591336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4dd5a05d97%3A0x3e64f855a564844d!2s121%20King%20St%2C%20Melbourne%20VIC%203000%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1631871760998!5m2!1svi!2s" width="1720" height="655" allowFullScreen="" loading="lazy" />
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

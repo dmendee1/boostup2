@@ -43,7 +43,7 @@ function HomeOne(props) {
 
         <Partner data={dataPartner} />
 
-        <NftItemDetails />
+        {/* <NftItemDetails /> */}
 
         <FAQ data={dataFaq} />
         

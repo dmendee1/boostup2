@@ -16,6 +16,7 @@ import BlogDetails from "./BlogDetails";
 import Contact from "./Contact";
 import UnitTest from "./UnitTest";
 import TeamDetail from "./TeamDetail";
+import ApiTestAutomation from "./ApiTestAutomation";
 
 
 const routes = [
@@ -37,6 +38,7 @@ const routes = [
   { path: '/contact', component: <Contact />},
   { path: '/unit-test', component: <UnitTest />},
   { path: '/team-details', component: <TeamDetail />},
+  { path: '/api-test', component: <ApiTestAutomation />},
 
 ]
 

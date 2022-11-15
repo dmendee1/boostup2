@@ -39,7 +39,7 @@ function HomeOne(props) {
 
         <Team data={dataTeam} />
 
-        <Blog data={dataBlog} />
+        {/* <Blog data={dataBlog} /> */}
 
         <Partner data={dataPartner} />
 

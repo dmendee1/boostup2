@@ -1,0 +1,3 @@
+const code = "package mn.mobicom.wallet.ejb.service;\n\nimport ...|25lines|\n\n /** ...4 lines */\npublic class LoyaltyServiceTest {\n\n\t@InjectMocks\n\tprivate LoyaltyService service; \n\n\t@Mock\n\tprivate CandyApiClient candyApiClient;\n\n\t@Before\n\tpublic void setUp() {\n\t\tSystem.setProperty(\"wallet.config.path\", \"src/main/resources\");\n\t\tMockitoAnnotations.initMocks(this);\n\t}\n\n\t@Test\n\tprivate void testNull() {\n\t\treturn service.checkIsdn(null);\n\t}\n}"
+
+export default code;

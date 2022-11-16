@@ -21,6 +21,7 @@ import dataPartner from '../assets/fake-data/data-partner';
 import FAQ from '../features/faq';
 import NftItemDetails from './NftItemDetails'
 import dataFaq from '../assets/fake-data/data-faq';
+import code from '../assets/code/unit-test';
 
 
 function HomeOne(props) {
@@ -43,7 +44,7 @@ function HomeOne(props) {
 
         <Partner data={dataPartner} />
 
-        {/* <NftItemDetails /> */}
+        <NftItemDetails code={code} title={"Unit test implementation"} subtitle={"Unit test"} desc={""}/>
 
         <FAQ data={dataFaq} />
         

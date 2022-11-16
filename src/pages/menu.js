@@ -17,7 +17,7 @@ const menus = [
     {
         id: 5,
         name: 'Integration test',
-        links: '/blog'
+        links: '/integration-test'
     },
     {
         id: 6,

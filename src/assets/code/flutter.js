@@ -1,0 +1,3 @@
+const code = "Future<void> testDonation(WidgetTester tester, TestCase testCase) async {\r\n  \r\n  ... \/\/ Go miniapp all, Drag until donation shows ...\r\n\r\n  \/\/ Click Donation button\r\n  await finderAndClicker(tester, \"Donation\", 2);\r\n\r\n  ... \/\/ Click first donation item ... \r\n\r\n  \/\/ Click donation button in donation detail \r\n  await finderAndClicker(tester, \"donation_detail_button\", 2);\r\n\r\n  ... \/\/ Enter donation input amount, description ...\r\n\r\n  \/\/ Click donation continue button\r\n  await finderAndClicker(tester, \"donation_continue_button\", 2);\r\n\r\n  \/\/ Dialog success\r\n  await finderAndClicker(tester, \"button_success\", 5);\r\n}"
+
+export default code;

@@ -17,6 +17,7 @@ import Contact from "./Contact";
 import UnitTest from "./UnitTest";
 import TeamDetail from "./TeamDetail";
 import ApiTestAutomation from "./ApiTestAutomation";
+import IntegrationTest from "./IntegrationTest";
 
 
 const routes = [
@@ -39,6 +40,7 @@ const routes = [
   { path: '/unit-test', component: <UnitTest />},
   { path: '/team-details', component: <TeamDetail />},
   { path: '/api-test', component: <ApiTestAutomation />},
+  { path: '/integration-test', component: <IntegrationTest />},
 
 ]
 

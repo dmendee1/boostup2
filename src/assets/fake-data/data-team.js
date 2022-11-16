@@ -1,8 +1,8 @@
-import img1 from '../images/common/team6.png';
-import img2 from '../images/common/team7.png';
-import img3 from '../images/common/team8.png';
-import img4 from '../images/common/team9.png';
-import img5 from '../images/common/team10.png';
+import img1 from '../images/common/baysaa-singa.png';
+import img2 from '../images/common/mba.png';
+import img3 from '../images/common/suuri.png';
+import img4 from '../images/common/ujin.png';
+import img5 from '../images/common/tumnu.png';
 import img6 from '../images/common/team11.jpeg';
 
 const dataTeam = [

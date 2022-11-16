@@ -28,16 +28,9 @@ function Community(props) {
                         </div>
 
                         <div className="col-md-12">
-                            <div className="video" data-aos="fade-up" data-aos-duration="800">
-                                <img src={require('../assets/images/common/video.jpg')} alt="" />
-                                <div className="wrap-video">
-                                    <Link to="#" className="popup-youtube" onClick={()=> setOpen(true)}>
-                                        <svg width="27" height="35" viewBox="0 0 27 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M27 17.0001L0 0.500061V35.0001L27 17.0001Z" fill="#14C2A3"/>
-                                        </svg>
-                                    </Link>
-                                </div>  
-                            </div>
+                            {/* <div className="video" data-aos="fade-up" data-aos-duration="800"> */}
+                                <img src={require('../assets/images/background/automation.png')} alt="" />
+                            {/* </div> */}
                         </div>
                     </div>
                 </div>

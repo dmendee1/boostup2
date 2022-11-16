@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Project from '../features/project/nftdetails';
 import Coder from "../components/code/Coder"
 import dataProject from '../assets/fake-data/dataProject';
+import { propTypes } from 'react-bootstrap/esm/Image';
 
 function NftItemDetails(props) {
     return (
@@ -14,16 +15,26 @@ function NftItemDetails(props) {
                     <div className="row">
                         <div className="col-xl-6 col-lg-6 col-md-12">
                             <div className="image-details" data-aos="fade-right" data-aos-duration="800">
-                                <Coder code={props.code}/>
+                                <Coder code={props.code} />
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-12">
                             <div className="item-details" data-aos="fade-left" data-aos-duration="800">
                                 <h5>{props.title}</h5>
                                 <p className="sub">{props.subtitle}</p>
-                                <p className="desc">{props.desc}</p>
 
-                                
+                                {/* <p className="sub">a</p>
+                                <p className="sub">a</p>
+                                <p className="sub">a</p>
+                                <p className="sub">a</p>
+                                <p className="sub">a</p>
+                                <p className="sub">a</p> */}
+                                {
+                                        props.desc.map(item => 
+                                            <p className="sub">{item}</p>
+                                        )
+                                }
+
                             </div>
                         </div>
                     </div>

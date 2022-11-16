@@ -14,7 +14,7 @@ function Work(props) {
     const [dataBlock] = useState({
         subtitle: 'How does work',
         title: 'BENEFITS',
-        desc: 'Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut adipiscing integer felis.'
+        desc: 'Testing applications is one of the critical aspects of quality assurance. While manual testing  was the norm until a few years ago, organizations today have started adopting automated  testing for good. So, what is test automation?'
     })
     return (
         <section className="tf-section how-we-work">

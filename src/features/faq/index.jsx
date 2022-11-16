@@ -14,8 +14,8 @@ function FAQ(props) {
     const {data} = props;
 
     const [dataBlock] = useState({
-        subtitle: 'FAQs',
-        title: 'Looking for answers?'
+        // subtitle: 'FAQs',
+        title: 'What we saving?'
     })
 
     return (

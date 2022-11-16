@@ -31,7 +31,6 @@ function RoadMap(props) {
                     </div>
                     <div className="col-md-12">
                         <div className="roadmap scrol">
-
                                 {
                                     data.map(item => (
                                         <RoadMapItem key={item.id} item ={item} />

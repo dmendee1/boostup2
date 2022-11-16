@@ -1,196 +1,57 @@
 const dataRoadmap = [
     {
         id: 1,
-        time: 'Q2 2022',
+        time: 'HY2 2022',
         list: [
             {
-                text: 'Aenean tempor'
+                text: 'Learning unit test'
             },
             {
-                text: 'Fusce arcu maecenas'
+                text: 'Gitlab CI/CD test coverage - JACOCO'
             },
             {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
+                text: 'Old code to redesign and rewriting.'
+            }
         ],
         positon: 'left',
         style: 'normal'
     },
     {
         id: 2,
-        time: 'Q1 2022',
+        time: 'HY1 2023',
         list: [
             {
-                text: 'Release website and logo'
+                text: 'Implement monitoring tools'
             },
             {
-                text: 'Grow community'
+                text: 'Redifine code coverage min value'
             },
             {
-                text: 'Launch the project'
+                text: 'Implement code quality tool'
             },
             {
-                text: 'Social media setup'
-            },
+                text: 'Code standard relise'
+            }
         ],
         positon: 'right',
         style: 'normal'
     },
     {
         id: 3,
-        time: 'Q4 2022',
+        time: 'HY2 2023',
         list: [
             {
-                text: 'Aenean tempor'
+                text: 'Localize culture'
             },
             {
-                text: 'Fusce arcu maecenas'
+                text: 'Too many times reducing. /Coding time/'
             },
             {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
+                text: 'Review process redefine.'
+            }
         ],
         positon: 'left'
-    },
-    {
-        id: 4,
-        time: 'Q3 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'right'
-    },
-    {
-        id: 5,
-        time: 'Q2 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'left'
-    },
-    {
-        id: 6,
-        time: 'Q1 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'right'
-    },
-    {
-        id: 7,
-        time: 'Q4 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'left'
-    },
-    {
-        id: 8,
-        time: 'Q3 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'right'
-    },
-    {
-        id: 9,
-        time: 'Q2 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'left'
-    },
-    {
-        id: 10,
-        time: 'Q1 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'right'
-    },
+    }
 ]
 
 export default dataRoadmap;

@@ -20,7 +20,7 @@ function Team(props) {
         subtitle: 'Our team',
         title: 'Meet our TEAM',
         desc: 'Who we are',
-        text: 'Purus, laoreet dui augue ut euismod. Elementum ante sociis volutpat tellus enim, nisl consectetur mauris. Venenatis congue id quis eget viverra. Vestibulum, justo, euismod congue feugiat eget fames gravida posuere.'
+        text: 'Our main point is to implement automation test cases in the possible ways. We wanted to automate tests in our daily life that be more close to our life. We just want to make localization automation, and code review processing, and require unit tests.'
     })
     return (
         <section className="tf-section tf-team">

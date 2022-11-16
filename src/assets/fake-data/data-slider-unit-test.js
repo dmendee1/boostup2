@@ -1,8 +1,8 @@
 import bgImg1 from '../images/background/bg-1.jpg';
 import bgImg2 from '../images/background/bg-3.jpg';
 import bgImg3 from '../images/background/bg-4.jpg';
-import bgImg4 from '../images/jacoco/t1.png';
-import bgImg5 from '../images/jacoco/t2.png';
+import bgImg5 from '../images/code/loyalty.png';
+import bgImg4 from '../images/code/sales.png';
 import bgImg6 from '../images/jacoco/t3.png';
 import img1 from '../images/common/itemslider.png';
 

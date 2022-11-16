@@ -16,7 +16,7 @@ function About(props) {
         {
             subtitle : '',
             title: 'What we did?',
-            desc : 'Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut adipiscing integer felis. Id ac non arcu facilisi proin ultrices sed. Id accumsan quam viverra ante in id integer ut. Volutpat lobortis dolor etiam dis interdum tincidunt senectus.'
+            desc : 'What we have been having problems with? Try to research the usage of language or tools. Try to ask again. If doesn\'t troubleshoot your plugin or tools, start researching new tools. We try to implement on monpay application for unit test /Mockito/, API test automation /postman/, integration test /flutter integration test/. '
         }
     )
 
@@ -31,7 +31,7 @@ function About(props) {
                                 <h4 className="title">{dataBlock.title}</h4>
                             </div>
                             <p>{dataBlock.desc}</p>
-                                <Button title="get Nfts" path='/' />
+                                {/* <Button title="get Nfts" path='/' /> */}
                         </div>
                     </div>
                     <div className="col-xl-7 col-md-12">

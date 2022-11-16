@@ -34,7 +34,18 @@ function UnitTest(props) {
                         <center><h4>Code coverage reporting</h4>
                         <p>Jacoco test coverage plugin report</p>
                         </center>
-                        <Slider data={dataSlider} />
+                        <Slider data={dataSliderCoding} />
+                        <div className="col-md-12">
+                            {/* <div className="video" data-aos="fade-up" data-aos-duration="800"> */}
+                                {/* <img src={require('../assets/images/background/automation.png')} alt="" /> */}
+                            {/* </div> */}
+                        </div>
+                    </div>
+                    <div className="tf-section row">
+                        <center><h4>Test cases executed</h4>
+                        <p>Surefire report plugin</p>
+                        </center>
+                        <Slider data={dataSliderResult} />
                         <div className="col-md-12">
                             {/* <div className="video" data-aos="fade-up" data-aos-duration="800"> */}
                                 {/* <img src={require('../assets/images/background/automation.png')} alt="" /> */}
